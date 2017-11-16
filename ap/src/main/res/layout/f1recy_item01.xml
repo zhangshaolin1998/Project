@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/rect_im"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/vp13" />
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/rect_ziying"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arn"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/rect_name"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:text="             啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊昂昂啊啊啊啊"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rect_price"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/rect_name"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=" ¥52000.80"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/rect_bt"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/rect_price"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/text"
+            android:text="看相似"
+            android:textColor="#737373" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
